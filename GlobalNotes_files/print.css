@@ -1,0 +1,65 @@
+﻿
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: auto;
+}
+
+/*div {
+    border: 1px solid black;
+}*/
+
+/*https://css-tricks.com/almanac/properties/p/page-break/*/
+
+.globalNote {
+    margin-left: 1cm;
+    margin-right: 1cm;
+    position: relative;
+    padding-top: 0;
+    margin-bottom: -5px;
+}
+
+    .globalNote h1 {
+        padding-top: 2cm;
+        text-align: center;
+    }
+
+    .globalNote h2 {
+        page-break-before: always;
+        color: forestgreen;
+        background-color: yellow;
+        text-align: center;
+    }
+
+    .globalNote h3, h4 {
+        page-break-after: avoid;
+    }
+
+    .globalNote pre, blockquote {
+        page-break-after: avoid;
+    }
+
+
+    .break {
+        page-break-after: always;
+    }
+
+/*.break:last-child {
+    page-break-after: auto;
+}*/
+
+
+    .globalNote .signature {
+        width: 100px;
+        height: 100px;
+    }
+
+.globalNote footer {
+     position: absolute;
+    bottom: 3cm;
+    width: 100%;
+    border-top: 3px solid grey;
+}
+    
