@@ -1,0 +1,80 @@
+
+
+
+ - all
+ - bundle
+ - bundle-build
+ - clean-test-apps
+ - controller-gen
+ - create-k8gb-ns
+ - create-test-ns
+ - debug-local
+ - debug-test-etcd
+ - **demo-failover**
+ - **demo-roundrobin**
+ - deploy
+ - deploy-first-k8gb
+ - **deploy-full-local-setup**
+ - deploy-gslb-cr
+ - deploy-gslb-operator
+ - deploy-gslb-operator-14
+ - deploy-local-cluster
+ - deploy-local-ingress
+ - deploy-second-k8gb
+ - deploy-test-apps
+ - deploy-two-local-clusters
+ - **destroy-full-local-setup**
+ - destroy-local-cluster
+ - destroy-two-local-clusters
+ - **dns-smoke-test**
+ - **dns-tools**
+ - docker-build
+ - docker-push
+ - docker-test-build-push
+ - fmt
+ - generate
+ - infoblox-secret
+ - **init-failover**
+ - **init-round-robin**
+ - install
+ - kustomize
+ - **lint**
+ - manager
+ - manifests
+ - **reset (NEW)**
+ - run
+ - **start-test-app**
+ - **stop-test-app**
+ - **terratest**
+ - test
+ - **test-failover**
+ - **test-round-robin**
+ - uninstall
+ - use-first-context
+ - use-second-context
+ - **version**
+ - vet
+ - wait-for-gslb-ready
+ - wait-for-nginx-ingress-ready
+
+
+
+
+
+demo-failover
+demo-roundrobin
+deploy-full-local-setup
+destroy-full-local-setup
+dns-smoke-test
+dns-tools
+init-failover
+init-round-robin
+lint
+reset
+start-test-app
+stop-test-app
+terratest
+test-failover
+test-round-robin
+version
+
