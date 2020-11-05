@@ -1,5 +1,5 @@
 
-
+# old
 
  - all
  - bundle
@@ -58,7 +58,7 @@
  - wait-for-nginx-ingress-ready
 
 
-
+# new
 
  - clean-test-apps
  - demo-failover
