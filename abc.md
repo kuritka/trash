@@ -6,8 +6,8 @@
  - bundle-build
  - **clean-test-apps**
  - controller-gen
- - create-k8gb-ns
- - create-test-ns
+ - ~create-k8gb-ns~
+ - ~create-test-ns~
  - debug-local
  - debug-test-etcd
  - **demo-failover**
@@ -15,7 +15,7 @@
  - deploy
  - deploy-first-k8gb
  - **deploy-full-local-setup**
- - deploy-gslb-cr
+ - ~deploy-gslb-cr~
  - deploy-gslb-operator
  - deploy-gslb-operator-14
  - deploy-local-cluster
@@ -50,8 +50,8 @@
  - **test-failover**
  - **test-round-robin**
  - uninstall
- - use-first-context
- - use-second-context
+ - ~use-first-context~
+ - ~use-second-context~
  - **version**
  - vet
  - ~wait-for-gslb-ready~
