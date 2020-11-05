@@ -54,8 +54,8 @@
  - use-second-context
  - **version**
  - vet
- - wait-for-gslb-ready
- - wait-for-nginx-ingress-ready
+ - ~wait-for-gslb-ready~
+ - ~wait-for-nginx-ingress-ready~
 
 
 # new
