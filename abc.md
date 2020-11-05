@@ -4,7 +4,7 @@
  - all
  - bundle
  - bundle-build
- - clean-test-apps
+ - **clean-test-apps**
  - controller-gen
  - create-k8gb-ns
  - create-test-ns
@@ -60,21 +60,21 @@
 
 
 
-
-demo-failover
-demo-roundrobin
-deploy-full-local-setup
-destroy-full-local-setup
-dns-smoke-test
-dns-tools
-init-failover
-init-round-robin
-lint
-reset
-start-test-app
-stop-test-app
-terratest
-test-failover
-test-round-robin
-version
+ - clean-test-apps
+ - demo-failover
+ - demo-roundrobin
+ - deploy-full-local-setup
+ - destroy-full-local-setup
+ - dns-smoke-test
+ - dns-tools
+ - init-failover
+ - init-round-robin
+ - lint
+ - reset
+ - start-test-app
+ - stop-test-app
+ - terratest
+ - test-failover
+ - test-round-robin
+ - version
 
