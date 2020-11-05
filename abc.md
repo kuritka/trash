@@ -13,19 +13,19 @@
  - **demo-failover**
  - **demo-roundrobin**
  - deploy
- - deploy-first-k8gb
+ - ~deploy-first-k8gb~
  - **deploy-full-local-setup**
  - ~deploy-gslb-cr~
- - deploy-gslb-operator
+ - ~deploy-gslb-operator~
  - deploy-gslb-operator-14
  - deploy-local-cluster
- - deploy-local-ingress
- - deploy-second-k8gb
- - deploy-test-apps
- - deploy-two-local-clusters
+ - ~deploy-local-ingress~
+ - ~deploy-second-k8gb~
+ - ~deploy-test-apps~
+ - ~deploy-two-local-clusters~
  - **destroy-full-local-setup**
  - destroy-local-cluster
- - destroy-two-local-clusters
+ - ~destroy-two-local-clusters~
  - **dns-smoke-test**
  - **dns-tools**
  - docker-build
