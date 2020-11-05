@@ -20,7 +20,7 @@
  - **deploy-full-local-setup**
  - ~deploy-gslb-cr~
  - ~deploy-gslb-operator~
- - deploy-gslb-operator-14
+ - **deploy-gslb-operator-14**
  - deploy-local-cluster
  - ~deploy-local-ingress~
  - ~deploy-second-k8gb~
@@ -68,6 +68,7 @@
  - demo-roundrobin
  - deploy-full-local-setup
  - destroy-full-local-setup
+ - deploy-gslb-operator-14
  - dns-smoke-test
  - dns-tools
  - init-failover
