@@ -73,7 +73,8 @@
  - init-failover
  - init-round-robin
  - lint
- - reset
+ - **list (NEW)**
+ - **reset (NEW)**
  - start-test-app
  - stop-test-app
  - terratest
