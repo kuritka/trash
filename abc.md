@@ -1,4 +1,4 @@
- - **bold** - moved to ne Makefile and accessible `make <target>`
+ - **bold** - moved to new Makefile and accessible `make <target>`
  - ~crossed out~ - functioality is moved to new Makefile but not accessible via targets
  - normal text - do we move to new Makefile ? 
 
