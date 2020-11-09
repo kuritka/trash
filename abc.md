@@ -8,7 +8,7 @@
  - bundle
  - bundle-build
  - **clean-test-apps**
- - controller-gen
+ - ~controller-gen~
  - ~create-k8gb-ns~
  - ~create-test-ns~
  - debug-local
@@ -36,10 +36,10 @@
  - docker-test-build-push
  - ~fmt~ is part of golangci now
  - ~generate~
- - infoblox-secret
+ - **infoblox-secret**
  - **init-failover**
  - **init-round-robin**
- - install
+ - **install**
  - ~kustomize~
  - **lint**
  - **manager**
@@ -71,8 +71,10 @@
  - deploy-gslb-operator-14
  - dns-smoke-test
  - dns-tools
+ - infoblox-secret
  - init-failover
  - init-round-robin
+ - install
  - lint
  - **list (NEW)**
  - manager
