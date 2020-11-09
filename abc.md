@@ -45,7 +45,7 @@
  - manager
  - ~manifests~
  - **reset (NEW)**
- - run
+ - **run**
  - **start-test-app**
  - **stop-test-app**
  - **terratest**
@@ -76,6 +76,7 @@
  - lint
  - **list (NEW)**
  - **reset (NEW)**
+ - run
  - start-test-app
  - stop-test-app
  - terratest
