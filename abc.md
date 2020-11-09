@@ -56,7 +56,7 @@
  - ~use-first-context~
  - ~use-second-context~
  - **version**
- - ~vet~ is part of golangci now
+ - ~vet~ is part of golangci now  `govet` plugin
  - ~wait-for-gslb-ready~
  - ~wait-for-nginx-ingress-ready~
 
