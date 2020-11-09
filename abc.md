@@ -4,7 +4,7 @@
 
 # old
 
- - all
+ - ~all~
  - bundle
  - bundle-build
  - **clean-test-apps**
