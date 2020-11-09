@@ -42,7 +42,7 @@
  - install
  - ~kustomize~
  - **lint**
- - manager
+ - **manager**
  - ~manifests~
  - **reset (NEW)**
  - **run**
@@ -75,6 +75,7 @@
  - init-round-robin
  - lint
  - **list (NEW)**
+ - manager
  - **reset (NEW)**
  - run
  - start-test-app
