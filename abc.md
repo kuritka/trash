@@ -82,5 +82,6 @@
  - test
  - test-failover
  - test-round-robin
+ - uninstall
  - version
 
