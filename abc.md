@@ -52,7 +52,7 @@
  - **test**
  - **test-failover**
  - **test-round-robin**
- - uninstall
+ - **uninstall**
  - ~use-first-context~
  - ~use-second-context~
  - **version**
