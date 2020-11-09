@@ -34,29 +34,29 @@
  - docker-build
  - docker-push
  - docker-test-build-push
- - fmt
- - generate
+ - ~fmt~ is part of golangci now
+ - ~generate~
  - infoblox-secret
  - **init-failover**
  - **init-round-robin**
  - install
- - kustomize
+ - ~kustomize~
  - **lint**
  - manager
- - manifests
+ - ~manifests~
  - **reset (NEW)**
  - run
  - **start-test-app**
  - **stop-test-app**
  - **terratest**
- - test
+ - **test**
  - **test-failover**
  - **test-round-robin**
  - uninstall
  - ~use-first-context~
  - ~use-second-context~
  - **version**
- - vet
+ - ~vet~ is part of golangci now
  - ~wait-for-gslb-ready~
  - ~wait-for-nginx-ingress-ready~
 
@@ -79,6 +79,7 @@
  - start-test-app
  - stop-test-app
  - terratest
+ - test
  - test-failover
  - test-round-robin
  - version
