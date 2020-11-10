@@ -11,7 +11,7 @@
  - ~controller-gen~
  - ~create-k8gb-ns~
  - ~create-test-ns~
- - debug-local
+ - **debug-local** NOT WORKING, requires FIX
  - debug-test-etcd
  - **demo-failover**
  - **demo-roundrobin**
@@ -64,8 +64,9 @@
 # new
 
  - bundle **NOT WORKING, requires FIX**
- - bundle-build
+ - bundle-build **NOT WORKING, requires FIX**
  - clean-test-apps
+ - debug-local **NOT WORKING, requires FIX**
  - demo-failover
  - demo-roundrobin
  - deploy **NOT WORKING, requires FIX**
