@@ -31,9 +31,9 @@
  - ~destroy-two-local-clusters~
  - **dns-smoke-test**
  - **dns-tools**
- - docker-build
- - docker-push
- - docker-test-build-push
+ - **docker-build**
+ - **docker-push**
+ - **docker-test-build-push**
  - ~fmt~ is part of golangci, using lint instead, REMOVED
  - ~generate~
  - **infoblox-secret**
@@ -76,6 +76,9 @@
  - deploy-gslb-operator-14
  - dns-smoke-test
  - dns-tools
+ - docker-build
+ - docker-push **can't push to docker.io/absaoss/k8gb - does it exist ???**
+ - docker-test-build-push
  - infoblox-secret
  - init-failover
  - init-round-robin
