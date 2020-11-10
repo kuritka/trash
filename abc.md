@@ -6,7 +6,7 @@
 
  - ~all~
  - **bundle**  NOT WORKING, requires FIX
- - bundle-build
+ - **bundle-build** NOT WORKING, requires FIX
  - **clean-test-apps**
  - ~controller-gen~
  - ~create-k8gb-ns~
@@ -64,6 +64,7 @@
 # new
 
  - bundle **NOT WORKING, requires FIX**
+ - bundle-build
  - clean-test-apps
  - demo-failover
  - demo-roundrobin
