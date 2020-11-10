@@ -5,13 +5,13 @@
 # old
 
  - ~all~
- - **bundle**  NOT WORKING, requires FIX
- - **bundle-build** NOT WORKING, requires FIX
+ - **bundle**
+ - **bundle-build**
  - **clean-test-apps**
  - ~controller-gen~
  - ~create-k8gb-ns~
  - ~create-test-ns~
- - **debug-local** NOT WORKING, requires FIX
+ - **debug-local**
  - **debug-test-etcd**
  - **demo-failover**
  - **demo-roundrobin**
