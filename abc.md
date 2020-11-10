@@ -72,7 +72,7 @@
  - dns-smoke-test
  - dns-tools
  - docker-build
- - docker-push **can't push to docker.io/absaoss/k8gb - does it exist ???**
+ - docker-push
  - docker-test-build-push
  - infoblox-secret
  - init-failover
