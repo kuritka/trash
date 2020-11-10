@@ -12,7 +12,7 @@
  - ~create-k8gb-ns~
  - ~create-test-ns~
  - **debug-local** NOT WORKING, requires FIX
- - debug-test-etcd
+ - **debug-test-etcd**
  - **demo-failover**
  - **demo-roundrobin**
  - **deploy**
@@ -67,6 +67,7 @@
  - bundle-build **NOT WORKING, requires FIX**
  - clean-test-apps
  - debug-local **NOT WORKING, requires FIX**
+ - debug-test-etcd
  - demo-failover
  - demo-roundrobin
  - deploy **NOT WORKING, requires FIX**
