@@ -5,7 +5,7 @@
 # old
 
  - ~all~
- - bundle
+ - **bundle**  NOT WORKING, requires FIX
  - bundle-build
  - **clean-test-apps**
  - ~controller-gen~
@@ -63,10 +63,11 @@
 
 # new
 
+ - bundle **NOT WORKING, requires FIX**
  - clean-test-apps
  - demo-failover
  - demo-roundrobin
- - deploy
+ - deploy **NOT WORKING, requires FIX**
  - deploy-full-local-setup
  - destroy-full-local-setup
  - deploy-gslb-operator-14
