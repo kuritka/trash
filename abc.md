@@ -21,13 +21,13 @@
  - ~deploy-gslb-cr~
  - ~deploy-gslb-operator~
  - **deploy-gslb-operator-14**
- - deploy-local-cluster
+ - ~deploy-local-cluster~ REMOVED
  - ~deploy-local-ingress~
  - ~deploy-second-k8gb~
  - ~deploy-test-apps~
  - ~deploy-two-local-clusters~
  - **destroy-full-local-setup**
- - destroy-local-cluster
+ - ~destroy-local-cluster~ REMOVED
  - ~destroy-two-local-clusters~
  - **dns-smoke-test**
  - **dns-tools**
@@ -56,7 +56,7 @@
  - ~use-first-context~
  - ~use-second-context~
  - **version**
- - ~vet~ is part of golangci now  `govet` plugin
+ - ~vet~ is part of golangci now  `govet` plugin, REMOVED
  - ~wait-for-gslb-ready~
  - ~wait-for-nginx-ingress-ready~
 
