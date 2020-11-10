@@ -5,17 +5,17 @@
 # old
 
  - ~all~
- - **bundle**
- - **bundle-build**
+ - ~bundle~ REMOVED , obsolete by 1.0 migration
+ - ~bundle-build~ REMOVED , obsolete by 1.0 migration
  - **clean-test-apps**
  - ~controller-gen~
  - ~create-k8gb-ns~
  - ~create-test-ns~
- - **debug-local**
+ - ~debug-local~ REMOVED , obsolete by 1.0 migration
  - **debug-test-etcd**
  - **demo-failover**
  - **demo-roundrobin**
- - **deploy**
+ - ~deploy~ REMOVED , obsolete by 1.0 migration
  - ~deploy-first-k8gb~
  - **deploy-full-local-setup**
  - ~deploy-gslb-cr~
@@ -62,15 +62,10 @@
 
 
 # new
-
- - bundle **NOT WORKING, requires FIX**
- - bundle-build **NOT WORKING, requires FIX**
  - clean-test-apps
- - debug-local **NOT WORKING, requires FIX**
  - debug-test-etcd
  - demo-failover
  - demo-roundrobin
- - deploy **NOT WORKING, requires FIX**
  - deploy-full-local-setup
  - destroy-full-local-setup
  - deploy-gslb-operator-14
