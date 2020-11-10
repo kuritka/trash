@@ -15,7 +15,7 @@
  - debug-test-etcd
  - **demo-failover**
  - **demo-roundrobin**
- - deploy
+ - **deploy**
  - ~deploy-first-k8gb~
  - **deploy-full-local-setup**
  - ~deploy-gslb-cr~
@@ -66,6 +66,7 @@
  - clean-test-apps
  - demo-failover
  - demo-roundrobin
+ - deploy
  - deploy-full-local-setup
  - destroy-full-local-setup
  - deploy-gslb-operator-14
