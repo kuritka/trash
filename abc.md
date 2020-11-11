@@ -1,21 +1,21 @@
  - **bold** - moved to new Makefile and accessible `make <target>`
- - ~crossed out~ - functioality is moved to new Makefile but not accessible via targets
+ - ~crossed out~ - functioality is moved to new Makefile but not accessible via targets (no reason to expose)
  - normal text - do we move to new Makefile ? 
 
 # old
 
- - ~all~ REMOVED; *kubebuilder initial
+ - ~all~ REMOVED; _(kubebuilder initial)_
  - ~bundle~ REMOVED , obsolete by 1.0 migration
  - ~bundle-build~ REMOVED , obsolete by 1.0 migration
  - **clean-test-apps**
- - ~controller-gen~ *kubebuilder
+ - ~controller-gen~ _(kubebuilder initial)_
  - ~create-k8gb-ns~
  - ~create-test-ns~
  - ~debug-test-local~ -> debug-idea
  - **debug-test-etcd**
  - **demo-failover**
  - **demo-roundrobin**
- - ~deploy~ REMOVED *kubebuilder
+ - ~deploy~ REMOVED _(kubebuilder initial)_
  - ~deploy-first-k8gb~
  - **deploy-full-local-setup**
  - ~deploy-gslb-cr~
@@ -31,32 +31,32 @@
  - ~destroy-two-local-clusters~
  - **dns-smoke-test**
  - **dns-tools**
- - **docker-build** *kubebuilder
- - **docker-push** *kubebuilder
+ - **docker-build** _(kubebuilder initial)_
+ - **docker-push** _(kubebuilder initial)_
  - **docker-test-build-push**
- - ~fmt~ is part of golangci, using lint instead, REMOVED; *kubebuilder
- - ~generate~ *kubebuilder
+ - ~fmt~ is part of golangci, using lint instead, REMOVED; _(kubebuilder initial)_
+ - ~generate~ _(kubebuilder initial)_
  - **infoblox-secret**
  - **init-failover**
  - **init-round-robin**
- - **install** *kubebuilder
+ - **install** _(kubebuilder initial)_
  - ~kustomize~
  - **lint**
- - **manager** *kubebuilder
- - ~manifests~ *kubebuilder
+ - **manager** _(kubebuilder initial)_
+ - ~manifests~ _(kubebuilder initial)_
  - **reset (NEW)**
- - **run** *kubebuilder
+ - **run** _(kubebuilder initial)_
  - **start-test-app**
  - **stop-test-app**
  - **terratest**
- - **test** *kubebuilder
+ - **test** _(kubebuilder initial)_
  - **test-failover**
  - **test-round-robin**
- - **uninstall** *kubebuilder
+ - **uninstall** *_(kubebuilder initial)_
  - ~use-first-context~
  - ~use-second-context~
  - **version**
- - ~vet~ is part of golangci, using lint instead REMOVED; *kubebuilder
+ - ~vet~ is part of golangci, using lint instead REMOVED; _(kubebuilder initial)_
  - ~wait-for-gslb-ready~
  - ~wait-for-nginx-ingress-ready~
 
