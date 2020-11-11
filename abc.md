@@ -11,7 +11,7 @@
  - ~controller-gen~ _(kubebuilder initial)_
  - ~create-k8gb-ns~
  - ~create-test-ns~
- - ~debug-test-local~ -> debug-idea
+ - ~debug-test-local~ -> **debug-idea** previous implementation is not supported after migration 
  - **debug-test-etcd**
  - **demo-failover**
  - **demo-roundrobin**
