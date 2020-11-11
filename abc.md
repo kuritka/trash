@@ -4,18 +4,18 @@
 
 # old
 
- - ~all~
+ - ~all~ REMOVED; *kubebuilder initial
  - ~bundle~ REMOVED , obsolete by 1.0 migration
  - ~bundle-build~ REMOVED , obsolete by 1.0 migration
  - **clean-test-apps**
- - ~controller-gen~
+ - ~controller-gen~ *kubebuilder
  - ~create-k8gb-ns~
  - ~create-test-ns~
  - ~debug-local~ REMOVED , obsolete by 1.0 migration
  - **debug-test-etcd**
  - **demo-failover**
  - **demo-roundrobin**
- - ~deploy~ REMOVED , obsolete by 1.0 migration
+ - ~deploy~ *kubebuilder
  - ~deploy-first-k8gb~
  - **deploy-full-local-setup**
  - ~deploy-gslb-cr~
@@ -31,32 +31,32 @@
  - ~destroy-two-local-clusters~
  - **dns-smoke-test**
  - **dns-tools**
- - **docker-build**
- - **docker-push**
+ - **docker-build** *kubebuilder
+ - **docker-push** *kubebuilder
  - **docker-test-build-push**
- - ~fmt~ is part of golangci, using lint instead, REMOVED
- - ~generate~
+ - ~fmt~ is part of golangci, using lint instead, REMOVED; *kubebuilder
+ - ~generate~ *kubebuilder
  - **infoblox-secret**
  - **init-failover**
  - **init-round-robin**
- - **install**
+ - **install** *kubebuilder
  - ~kustomize~
  - **lint**
- - **manager**
- - ~manifests~
+ - **manager** *kubebuilder
+ - ~manifests~ *kubebuilder
  - **reset (NEW)**
- - **run**
+ - **run** *kubebuilder
  - **start-test-app**
  - **stop-test-app**
  - **terratest**
- - **test**
+ - **test** *kubebuilder
  - **test-failover**
  - **test-round-robin**
- - **uninstall**
+ - **uninstall** *kubebuilder
  - ~use-first-context~
  - ~use-second-context~
  - **version**
- - ~vet~ is part of golangci, using lint instead REMOVED
+ - ~vet~ is part of golangci, using lint instead REMOVED; *kubebuilder
  - ~wait-for-gslb-ready~
  - ~wait-for-nginx-ingress-ready~
 
