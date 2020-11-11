@@ -11,11 +11,11 @@
  - ~controller-gen~ *kubebuilder
  - ~create-k8gb-ns~
  - ~create-test-ns~
- - ~debug-local~ REMOVED , obsolete by 1.0 migration
+ - ~debug-test-local~ -> debug-idea
  - **debug-test-etcd**
  - **demo-failover**
  - **demo-roundrobin**
- - ~deploy~ *kubebuilder
+ - ~deploy~ REMOVED *kubebuilder
  - ~deploy-first-k8gb~
  - **deploy-full-local-setup**
  - ~deploy-gslb-cr~
@@ -63,6 +63,7 @@
 
 # new
  - clean-test-apps
+ - debug-idea
  - debug-test-etcd
  - demo-failover
  - demo-roundrobin
@@ -71,24 +72,24 @@
  - deploy-gslb-operator-14
  - dns-smoke-test
  - dns-tools
- - docker-build
- - docker-push
+ - docker-build _(kubebuilder initial)_
+ - docker-push _(kubebuilder initial)_
  - docker-test-build-push
  - infoblox-secret
  - init-failover
  - init-round-robin
- - install
+ - install _(kubebuilder initial)_
  - lint
  - **list (NEW)**
- - manager
+ - manager _(kubebuilder initial)_
  - **reset (NEW)**
- - run
+ - run _(kubebuilder initial)_
  - start-test-app
  - stop-test-app
  - terratest
- - test
+ - test _(kubebuilder initial)_
  - test-failover
  - test-round-robin
- - uninstall
+ - uninstall _(kubebuilder initial)_
  - version
 
